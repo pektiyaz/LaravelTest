@@ -23,6 +23,7 @@
 Настроите .env 
 ```bash
   php artisan config:cache
+  php artisan migrate --seed
   php artisan serve
 ```
 Посетите http://localhost:8000
