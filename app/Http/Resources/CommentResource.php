@@ -19,7 +19,7 @@ class CommentResource extends JsonResource
             'comment' => $this->comment,
             'user' => new UserResource($this->user),
             'liked_users' => LikeResource::collection($this->likes),
-            'likes' => count($this->likes),
+            'likes' => $this->likes_count,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ];
