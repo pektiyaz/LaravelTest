@@ -47,7 +47,7 @@
 | `id` |       Сортировка по ид DESC  |
 | `-id` |       Сортировка по ид ASC  |
 | `created_at` |       Сортировка по даты DESC  |
-| `-created_at` |       Сортировка по даты DESC  |
+| `-created_at` |       Сортировка по даты ASC  |
 | `likes_count` |       Сортировка по лайкам DESC  |
 | `-likes_count` |       Сортировка по лайкам ASC  |
 
